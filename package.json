@@ -1,0 +1,20 @@
+{
+  "name": "jfchat",
+  "version": "1.0.0",
+  "description": "MEAN stack socket chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.6",
+    "socket.io": "latest",
+    "http": "latest",
+    "path": "latest",
+    "supertest": "latest",
+    "date-format": "latest"
+  }
+}
