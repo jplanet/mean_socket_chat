@@ -11,7 +11,7 @@ var format = require('date-format');
 
 var CONTACTS_COLLECTION = "contacts";
 var USERS_COLLECTION = "users";
-var MESSAGES_COLLECTION = "users";
+var MESSAGES_COLLECTION = "messages";
 
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
